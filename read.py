@@ -1,5 +1,5 @@
-import users_pb2
 from google.protobuf.json_format import MessageToDict
+import users_pb2
 
 users = users_pb2.Users()
 
